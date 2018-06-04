@@ -1,0 +1,43 @@
+数据流
+
+java 需要先编译在执行
+
+图灵机
+
+kafk 生产者消费者模式；
+
+一个像素3个字节 600*800像素的 *3 =1.4兆
+
+
+压缩：1.有损压缩：对声音、图像压缩；
+
+      2.无损压缩：对原数据不会产生丢失损耗；
+
+EOF：文件结束符
+
+flume 数据收集
+
+	source  收集
+
+	channel 通道
+
+	sink  处理
+
+可以并行（一群人一起种树）或者串行（一群人挖井）
+
+端口：信箱 先确定楼，再确定层
+
+80端口 默认开放http服务
+
+stream 流
+
+	DStreams 离散流数据
+
+	DStreams 数据来源 kafk 
+
+
+Mysql操作
+
+
+	（两表联合查询）
+	SELECT Person.`Firstname`,Person.`LastName`,Adderss.`City`,Adderss.`State` FROM Person,Adderss
